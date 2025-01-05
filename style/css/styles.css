@@ -15,8 +15,15 @@
 }
 
 /* Style pour le texte principal avec dégradé */
-.gradient-text {
+.gradient-title {
     font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, var(--color-blue),var(--color-red));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-text {
+    font-size: 1.5rem;
     font-weight: bold;
     background: linear-gradient(to right, var(--color-blue),var(--color-red));
     background-clip: text;
@@ -83,6 +90,10 @@
 
 .btn-primary{
     background-color: var(--color-blue) !important;
+}
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
