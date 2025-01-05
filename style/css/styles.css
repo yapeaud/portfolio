@@ -13,6 +13,14 @@
     font-size: 12px;
     font-weight: bold;
 }
+.custom-bg {
+    background: linear-gradient(to right, var(--color-blue),var(--color-red));
+    color: #fff;
+    padding: 5px 15px;
+    
+    font-size: 12px;
+    font-weight: bold;
+}
 
 /* Style pour le texte principal avec dégradé */
 .gradient-title {
