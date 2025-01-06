@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    font-family:'Playfair Display';
+}
+
 :root{
     --color-blue:#4a00e0;
     --color-red:#ff0080;
 }
+
 /*SECTION HERO*/
 
 /* Style pour le badge en haut */
